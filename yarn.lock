@@ -1962,9 +1962,9 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@PolychickenFinance/polychicken-uikit-main":
+"@pancakeswap-libs/uikit@PolyowlFinance/polyowl-uikit-main":
   version "0.10.2"
-  resolved "https://codeload.github.com/PolychickenFinance/polychicken-uikit-main/tar.gz/91cf290f86326bd9caa498a17ddc1bda1dd712d1"
+  resolved "https://codeload.github.com/PolyowlFinance/polyowl-uikit-main/tar.gz/91cf290f86326bd9caa498a17ddc1bda1dd712d1"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
@@ -4513,7 +4513,7 @@ bind-decorator@^1.0.11:
 bindings@^1.2.1, bindings@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.5.0.tgz#10353c9e945334bc0511a6d90b38fbc7c9c504df"
-  integrity sha512-p2q/t/mhvuOj/UeLlV6566GD/guchickenr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==
+  integrity sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==
   dependencies:
     file-uri-to-path "1.0.0"
 
