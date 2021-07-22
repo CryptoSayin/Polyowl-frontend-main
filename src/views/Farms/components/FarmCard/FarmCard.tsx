@@ -17,7 +17,7 @@ export interface FarmWithStakedValue extends Farm {
   apy?: BigNumber
 }
 
-const RainbowLight = keyframes`
+const Rainbchickenight = keyframes`
   0% {
     background-position: 0% 50%;
   }
@@ -43,7 +43,7 @@ const StyledCardAccent = styled.div`
   rgba(251, 7, 217, 1) 90%,
   rgba(255, 0, 0, 1) 100%);
   background-size: 300% 300%;
-  animation: ${RainbowLight} 2s linear infinite;
+  animation: ${Rainbchickenight} 2s linear infinite;
   border-radius: 16px;
   filter: blur(6px);
   position: absolute;
@@ -119,7 +119,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
     : '-'
 
   const lpLabel = farm.lpSymbol
-  const earnLabel = 'OWL'
+  const earnLabel = 'chicken'
   const farmAPY = farm.apy && farm.apy.times(new BigNumber(100)).toNumber().toLocaleString(undefined, {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
@@ -129,7 +129,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
 
   return (
     <FCard>
-      {(farm.tokenSymbol === 'OWL' || farm.tokenSymbol === 'MATIC' || farm.tokenSymbol === 'WMATIC') && <StyledCardAccent />}
+      {(farm.tokenSymbol === 'chicken' || farm.tokenSymbol === 'MATIC' || farm.tokenSymbol === 'WMATIC') && <StyledCardAccent />}
       <CardHeading
         lpLabel={lpLabel}
         multiplier={farm.multiplier}

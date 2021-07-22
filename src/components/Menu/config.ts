@@ -55,11 +55,11 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Vfat Tools',
-        href: 'https://vfat.tools/polygon/polyowl/',
+        href: 'https://vfat.tools/polygon/polychicken/',
       },
       {
         label: 'DappRadar',
-        href: 'https://dappradar.com/polygon/defi/polyowl-finance',
+        href: 'https://dappradar.com/polygon/defi/polychicken-finance',
       },
     ],
   },
@@ -69,11 +69,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/PolyOwlFinance',
+        href: 'https://github.com/PolychickenFinance',
       },
       {
         label: 'Docs',
-        href: 'https://polyowlfinance.gitbook.io/polyowl/',
+        href: 'https://polychickenfinance.gitbook.io/polychicken/',
       },
     ],
   },
